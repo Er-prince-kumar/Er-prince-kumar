@@ -33,6 +33,7 @@ echo.
 echo =======================================================
 echo [*] Pushing to GitHub (main branch)...
 echo =======================================================
+git pull origin main --rebase
 git push -u origin main
 
 echo.
