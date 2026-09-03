@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prince Kumar - Profile Preview</title>
+  <style>
+    body {
+      background-color: #030712;
+      color: #f3f4f6;
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+    h2 {
+      margin-bottom: 8px;
+      color: #38bdf8;
+    }
+    .preview-card {
+      max-width: 1000px;
+      width: 100%;
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 12px;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    .preview-card.light {
+      background: #f1f5f9;
+      color: #0f172a;
+    }
+    .preview-card.light h2 {
+      color: #0284c7;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Prince Kumar (@Er-prince-kumar) - Profile Assets Preview</h1>
+
+  <div class="preview-card">
+    <h2>1. Dark Theme Terminal Card (dark.svg)</h2>
+    <img src="dark.svg" alt="Dark Mode Terminal Card">
+  </div>
+
+  <div class="preview-card light">
+    <h2>2. Light Theme Terminal Card (light.svg)</h2>
+    <img src="light.svg" alt="Light Mode Terminal Card">
+  </div>
+
+  <div class="preview-card">
+    <h2>3. Animated Jet Heatmap (dist/github-jet.svg)</h2>
+    <img src="dist/github-jet.svg" alt="Animated Jet Heatmap">
+  </div>
+</body>
+</html>
